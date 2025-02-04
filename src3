@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda - Chill</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #141414;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background-color: black;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: red;
+        }
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+        }
+        .profile {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: gray;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .hero button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .sections {
+            padding: 20px;
+        }
+        .footer {
+            background-color: black;
+            text-align: center;
+            padding: 20px;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Chill</div>
+        <nav class="nav">
+            <a href="#">Series</a>
+            <a href="#">Film</a>
+            <a href="#">Daftar Saya</a>
+        </nav>
+        <div class="profile"></div>
+    </header>
+    
+    <section class="hero">
+        <h1>Siap untuk Nonton Film?</h1>
+        <p>Preview Film</p>
+        <button>Mulai</button>
+        <button>Selengkapnya</button>
+        <input type="range" min="0" max="100" value="50">
+    </section>
+    
+    <section class="sections">Melanjutkan Nonton</section>
+    <section class="sections">Top Rating Film dan Series Hari Ini</section>
+    <section class="sections">Film Trending</section>
+    <section class="sections">Rilis Baru</section>
+    
+    <footer class="footer">
+        <div class="logo">Chill</div>
+        <p>&copy; 2025 Chill. All rights reserved.</p>
+        <nav>
+            <a href="#">Genre Film</a>
+            <a href="#">FAQ</a>
+            <a href="#">Kontak Kami</a>
+            <a href="#">Privasi</a>
+            <a href="#">Syarat & Ketentuan</a>
+        </nav>
+    </footer>
+</body>
+</html>
